@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestTools.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialappbar.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialautocomplete.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialautocomplete_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialavatar.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialbadge.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialcheckbox.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialcircularprogress.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialcircularprogress_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialdialog.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialdialog_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialdrawer.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialdrawer_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialfab.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialflatbutton.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialflatbutton_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialiconbutton.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmateriallist.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmateriallistitem.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialmenu.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialmenu_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialpaper.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialprogress.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialprogress_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialradiobutton.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialraisedbutton.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialscrollbar.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialscrollbar_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialslider.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialslider_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialsnackbar.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialsnackbar_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtable.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtabs.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtabs_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtextfield.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtextfield_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtoggle.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\qtmaterialtoggle_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialcheckable.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialcheckable_internal.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialoverlaywidget.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialripple.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialrippleoverlay.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstatetransition.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstyle.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialtheme.cpp">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBar.cpp">
+      <Filter>界面\菜单栏</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInterface.cpp">
+      <Filter>界面\主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetTester.cpp">
+      <Filter>界面\主界面\目标工具界面</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingUi.cpp">
+      <Filter>界面\主界面\设置界面</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversalSettingUi.cpp">
+      <Filter>界面\主界面\设置界面\通用设置</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigCore.cpp">
+      <Filter>核心\配置</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSettingUi.cpp">
+      <Filter>界面\主界面\设置界面\网络设置</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TestTools.h" />
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialappbar.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialautocomplete.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialautocomplete_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialavatar.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialbadge.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialcheckbox.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialcircularprogress.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialcircularprogress_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialdialog.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialdialog_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialdrawer.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialdrawer_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialfab.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialflatbutton.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialflatbutton_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialiconbutton.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialmenu.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialprogress.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialprogress_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialradiobutton.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialraisedbutton.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialscrollbar.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialscrollbar_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialslider.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialslider_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialsnackbar.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialsnackbar_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtabs.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtabs_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtextfield.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtextfield_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtoggle.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\qtmaterialtoggle_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialcheckable.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialcheckable_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialoverlaywidget.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialripple.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialrippleoverlay.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstatetransition.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstyle.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialtheme.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="MoveBar.h">
+      <Filter>界面\菜单栏</Filter>
+    </QtMoc>
+    <QtMoc Include="MainInterface.h">
+      <Filter>界面\主界面</Filter>
+    </QtMoc>
+    <QtMoc Include="TargetTester.h">
+      <Filter>界面\主界面\目标工具界面</Filter>
+    </QtMoc>
+    <QtMoc Include="SettingUi.h">
+      <Filter>界面\主界面\设置界面</Filter>
+    </QtMoc>
+    <QtMoc Include="UniversalSettingUi.h">
+      <Filter>界面\主界面\设置界面\通用设置</Filter>
+    </QtMoc>
+    <QtMoc Include="NetSettingUi.h">
+      <Filter>界面\主界面\设置界面\网络设置</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="TestTools.qrc" />
+    <QtRcc Include="..\Librarys\QtMaterialWidgets\resources.qrc">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="TestTools.ui" />
+    <QtUic Include="MainInterface.ui">
+      <Filter>界面\主界面</Filter>
+    </QtUic>
+    <QtUic Include="TargetTester.ui">
+      <Filter>界面\主界面\目标工具界面</Filter>
+    </QtUic>
+    <QtUic Include="SettingUi.ui">
+      <Filter>界面\主界面\设置界面</Filter>
+    </QtUic>
+    <QtUic Include="UniversalSettingUi.ui">
+      <Filter>界面\主界面\设置界面\通用设置</Filter>
+    </QtUic>
+    <QtUic Include="NetSettingUi.ui">
+      <Filter>界面\主界面\设置界面\网络设置</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="外部库">
+      <UniqueIdentifier>{1f2a6fa6-58b5-47f6-b146-ba900364488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部库\QtMaterialWidgets">
+      <UniqueIdentifier>{fd80842d-baf3-411f-93d5-510cdac46235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{28abc1ea-0631-484e-9d68-97922a59ad4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\菜单栏">
+      <UniqueIdentifier>{89b437bf-c259-457f-87d6-d0f207affad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面">
+      <UniqueIdentifier>{9259b3f6-0c4a-4951-a48b-767e441835f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\目标工具界面">
+      <UniqueIdentifier>{0d2c2f0d-ad0c-48ea-994c-452f63af883f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\设置界面">
+      <UniqueIdentifier>{ce5194ca-ee93-4118-9968-ed237f98ba87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部库\创新库">
+      <UniqueIdentifier>{67185756-50ad-4d68-a9c9-a0fcbc457b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\设置界面\通用设置">
+      <UniqueIdentifier>{e4b41242-0c47-470a-b238-4c29e8454717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="核心">
+      <UniqueIdentifier>{d069c9c2-ce0b-42ce-a35f-d0622824de9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="结构体">
+      <UniqueIdentifier>{7fb4f28f-a794-46ba-9888-726f594d93b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\设置界面\网络设置">
+      <UniqueIdentifier>{11618d2c-ff6b-45df-ba3c-37de6e1bfbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="核心\配置">
+      <UniqueIdentifier>{dd844a5c-3e61-4358-882a-178d934dcaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\结构体界面">
+      <UniqueIdentifier>{e3640520-33a1-4357-95c5-b77c8ae06cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\主界面\时钟界面">
+      <UniqueIdentifier>{0b53fa86-8f28-43df-8e63-89c2938bbad0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialappbar_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialautocomplete_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialavatar_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialbadge_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialcheckbox_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialcircularprogress_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialdialog_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialdrawer_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialfab_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialflatbutton_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialiconbutton_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmateriallist.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmateriallist_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmateriallistitem.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmateriallistitem_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialmenu_internal.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialmenu_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialpaper.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialpaper_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialprogress_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialradiobutton_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialraisedbutton_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialscrollbar_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialslider_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialsnackbar_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialtable.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialtable_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialtabs_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialtextfield_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\qtmaterialtoggle_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialcheckable_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstatetransitionevent.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialstyle_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Librarys\QtMaterialWidgets\lib\qtmaterialtheme_p.h">
+      <Filter>外部库\QtMaterialWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstIncludeUi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InnovationLibrary\StructsBuilder.h">
+      <Filter>外部库\创新库</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigCore.h">
+      <Filter>核心\配置</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandUi.h">
+      <Filter>结构体</Filter>
+    </ClInclude>
+    <ClInclude Include="UiStructs.h">
+      <Filter>结构体</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

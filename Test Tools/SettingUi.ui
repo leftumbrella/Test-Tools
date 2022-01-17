@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingUi</class>
+ <widget class="QWidget" name="SettingUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SettingUi</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QtMaterialTabs" name="WG_table" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="WG_sb">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="UniversalSettingUi" name="WG_universal"/>
+     <widget class="NetSettingUi" name="WG_net"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QtMaterialTabs</class>
+   <extends>QWidget</extends>
+   <header>qtmaterialtabs.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UniversalSettingUi</class>
+   <extends>QWidget</extends>
+   <header>universalsettingui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NetSettingUi</class>
+   <extends>QWidget</extends>
+   <header>netsettingui.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
